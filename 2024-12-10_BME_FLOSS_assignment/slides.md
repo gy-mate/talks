@@ -454,6 +454,8 @@ src: ./pages/PEPs.md
 ---
 layout: iframe
 url: https://rust-lang.github.io/rfcs/
+
+transition: slide-up
 ---
 
 <!--
@@ -465,31 +467,41 @@ url: https://rust-lang.github.io/rfcs/
 
 - groups have several different names
 - harder to understand the dev process
-
-- but it's understandable from a smaller community
-- it's more like a meritoracy (lesson 8: governance)
-
-- Python moved from a Mercurial Git repo and the Roundup issue tracker to GitHub (2017)
-    - some did not make the transition
 -->
 
 ---
-layout: two-cols
+layout: section
 
 transition: slide-up
 ---
 
-<img src="https://usesthis.com/images/interviews/eric.s.raymond/portrait.jpg">
-::right::
-<img src="https://live.staticflickr.com/65535/45063358945_9f6c8a83ea_b.jpg">
+# Summary
 
 <!--
-- Eric S. Raymond
-- Just van Rossum, Guido's brother
+- a looser governance understandable from a smaller community
+    - it's more like a meritoracy (lesson 8: governance)
+- Python is huge
+    - many checkpoints
+    - but they are inclusive and clear
+    - and take the weight off developers' shoulders
+
+- so thank you for your attention
 -->
 
 ---
-zoom: 0.546
+layout: statement
+
+transition: slide-up
+---
+
+https://github.com/gy-mate/talks/tree/main/2024-12-10_BME_FLOSS_assignment
+
+<!--
+- questions (teachers / fellow students): I'm available on Teams
+-->
+
+---
+zoom: 0.54
 
 transition: slide-left
 ---
@@ -501,27 +513,31 @@ transition: slide-left
 - [3] Cython developers, ‘About Cython’. Accessed: Dec. 08, 2024. [Online]. Available: https://cython.org/
 - [4] Data Is Beautiful, Most Popular Programming Languages 1965 - 2022, (Dec. 12, 2022). Accessed: Dec. 10, 2024. [Online Video]. Available: https://www.youtube.com/watch?v=qQXXI5QFUfw
 - [5] S. J. Turner et al., ‘3392-leadership-council’. Aug. 01, 2022. Accessed: Dec. 10, 2024. [Online]. Available: https://rust-lang.github.io/rfcs/3392-leadership-council.html
-- [6]. NET Foundation, ‘Python.NET documentation’. 2022. Accessed: Dec. 08, 2024. [Online]. Available: https://pythonnet.github.io/pythonnet/
-- [7]. NET Foundation, .‘NET Foundation’. 2024. Accessed: Dec. 08, 2024. [Online]. Available: https://dotnetfoundation.org/
-- [8] Python Software Foundation, ‘Experts index’. 2011. Accessed: Dec. 10, 2024. [Online]. Available: https://devguide.python.org/core-developers/experts/#
-- [9] Python Software Foundation, ‘About the Python Software Foundation’. 2024. Accessed: Dec. 09, 2024. [Online]. Available: https://www.python.org/psf/about/
-- [10] Python Software Foundation, ‘The Python Language Reference’. 2024. Accessed: Dec. 08, 2024. [Online]. Available: https://docs.python.org/3/reference/index.html
-- [11] Python Software Foundation, ‘The Python Standard Library’. 2024. Accessed: Dec. 08, 2024. [Online]. Available: https://docs.python.org/3/library/index.html
-- [12] Rust Team, ‘Governance’. Accessed: Dec. 10, 2024. [Online]. Available: https://www.rust-lang.org/governance
-- [13] The PEP Editors, ‘PEP 0 – Index of Python Enhancement Proposals (PEPs)’. Jul. 13, 2000. Accessed: Dec. 10, 2024. [Online]. Available: https://peps.python.org
-- [14] The PyPy Team, ‘PyPy’. 2024. Accessed: Dec. 08, 2024. [Online]. Available: https://pypy.org/
-- [15] The Python core team and community, ‘PEP 13 – Python Language Governance’. Dec. 16, 2018. Accessed: Dec. 09, 2024. [Online]. Available: https://peps.python.org/pep-0013/
-- [16] A. Turon, ‘1068-rust-governance’. Feb. 27, 2015. Accessed: Dec. 10, 2024. [Online]. Available: https://rust-lang.github.io/rfcs/1068-rust-governance.html
-- [17] G. Van Rossum, ‘Personal Home Page’. Accessed: Dec. 08, 2024. [Online]. Available: https://gvanrossum.github.io
-- [18] M. Von Löwis and B. Cannon, ‘PEP 11 – CPython platform support’. Jul. 07, 2002. Accessed: Dec. 10, 2024. [Online]. Available: https://peps.python.org/pep-0011/
-- [19] B. Warsaw, J. Hylton, D. Goodger, and A. Coghlan, ‘PEP 1 – PEP Purpose and Guidelines’. Jun. 13, 2000. Accessed: Dec. 09, 2024. [Online]. Available: https://peps.python.org/pep-0001/
-- [20] Wikipedia contributors, ‘Guido van Rossum — Wikipedia, The Free Encyclopedia’. 2024. [Online]. Available: https://en.wikipedia.org/w/index.php?title=Guido_van_Rossum&oldid=1261004768
-- [21] Wikipedia contributors, ‘Python (programming language) — Wikipedia, The Free Encyclopedia’. 2024. [Online]. Available: https://en.wikipedia.org/w/index.php?title=Python_(programming_language)&oldid=1261797535
-- [22] Wikipedia contributors, ‘Python Software Foundation — Wikipedia, The Free Encyclopedia’. 2024. [Online]. Available: https://en.wikipedia.org/w/index.php?title=Python_Software_Foundation&oldid=1261952004
-- [23] Wikipedia contributors, ‘Rust (programming language) — Wikipedia, The Free Encyclopedia’. 2024. [Online]. Available: https://en.wikipedia.org/w/index.php?title=Rust_(programming_language)&oldid=1261392251
-- [24] XAMPPRocky, N. Matsakis, and valgrimm, ‘2856-project-groups’. May 21, 2015. Accessed: Dec. 10, 2024. [Online]. Available: https://rust-lang.github.io/rfcs/2856-project-groups.html
+- [6] Ł. Langa, ‘PEP 602 – Annual Release Cycle for Python’. Jun. 04, 2019. Accessed: Dec. 10, 2024. [Online]. Available: https://peps.python.org/pep-0602/
+- [7]. NET Foundation, ‘Python.NET documentation’. 2022. Accessed: Dec. 08, 2024. [Online]. Available: https://pythonnet.github.io/pythonnet/
+- [8]. NET Foundation, .‘NET Foundation’. 2024. Accessed: Dec. 08, 2024. [Online]. Available: https://dotnetfoundation.org/
+- [9] Python Software Foundation, ‘Experts index’. 2011. Accessed: Dec. 10, 2024. [Online]. Available: https://devguide.python.org/core-developers/experts/#
+- [10] Python Software Foundation, ‘About the Python Software Foundation’. 2024. Accessed: Dec. 09, 2024. [Online]. Available: https://www.python.org/psf/about/
+- [11] Python Software Foundation, ‘The Python Language Reference’. 2024. Accessed: Dec. 08, 2024. [Online]. Available: https://docs.python.org/3/reference/index.html
+- [12] Python Software Foundation, ‘The Python Standard Library’. 2024. Accessed: Dec. 08, 2024. [Online]. Available: https://docs.python.org/3/library/index.html
+- [13] Rust Team, ‘Governance’. Accessed: Dec. 10, 2024. [Online]. Available: https://www.rust-lang.org/governance
+- [14] The PEP Editors, ‘PEP 0 – Index of Python Enhancement Proposals (PEPs)’. Jul. 13, 2000. Accessed: Dec. 10, 2024. [Online]. Available: https://peps.python.org
+- [15] The PyPy Team, ‘PyPy’. 2024. Accessed: Dec. 08, 2024. [Online]. Available: https://pypy.org/
+- [16] The Python core team and community, ‘PEP 13 – Python Language Governance’. Dec. 16, 2018. Accessed: Dec. 09, 2024. [Online]. Available: https://peps.python.org/pep-0013/
+- [17] A. Turon, ‘1068-rust-governance’. Feb. 27, 2015. Accessed: Dec. 10, 2024. [Online]. Available: https://rust-lang.github.io/rfcs/1068-rust-governance.html
+- [18] G. Van Rossum, ‘Personal Home Page’. Accessed: Dec. 08, 2024. [Online]. Available: https://gvanrossum.github.io
+- [19] M. Von Löwis and B. Cannon, ‘PEP 11 – CPython platform support’. Jul. 07, 2002. Accessed: Dec. 10, 2024. [Online]. Available: https://peps.python.org/pep-0011/
+- [20] B. Warsaw, ‘PEP 10 – Voting Guidelines’. Mar. 07, 2002. Accessed: Dec. 10, 2024. [Online]. Available: https://peps.python.org/pep-0010/
+- [21] B. Warsaw, J. Hylton, D. Goodger, and A. Coghlan, ‘PEP 1 – PEP Purpose and Guidelines’. Jun. 13, 2000. Accessed: Dec. 09, 2024. [Online]. Available: https://peps.python.org/pep-0001/
+- [22] Wikipedia contributors, ‘Guido van Rossum — Wikipedia, The Free Encyclopedia’. 2024. [Online]. Available: https://en.wikipedia.org/w/index.php?title=Guido_van_Rossum&oldid=1261004768
+- [23] Wikipedia contributors, ‘Python (programming language) — Wikipedia, The Free Encyclopedia’. 2024. [Online]. Available: https://en.wikipedia.org/w/index.php?title=Python_(programming_language)&oldid=1261797535
+- [24] Wikipedia contributors, ‘Python Software Foundation — Wikipedia, The Free Encyclopedia’. 2024. [Online]. Available: https://en.wikipedia.org/w/index.php?title=Python_Software_Foundation&oldid=1261952004
+- [25] Wikipedia contributors, ‘Rust (programming language) — Wikipedia, The Free Encyclopedia’. 2024. [Online]. Available: https://en.wikipedia.org/w/index.php?title=Rust_(programming_language)&oldid=1261392251
+- [26] XAMPPRocky, N. Matsakis, and valgrimm, ‘2856-project-groups’. May 21, 2015. Accessed: Dec. 10, 2024. [Online]. Available: https://rust-lang.github.io/rfcs/2856-project-groups.html
 
-
+<!--
+I used these sources to create the presentation
+-->
 
 ---
 transition: slide-left
@@ -544,14 +560,6 @@ transition: slide-left
 -->
 
 ---
-layout: statement
-
-transition: slide-up
----
-
-https://github.com/gy-mate/talks/tree/main/2024-12-10_BME_FLOSS_assignment
-
----
 layout: center
 zoom: 2.5
 ---
@@ -561,7 +569,6 @@ sys.exit()
 ```
 
 <!--
-- questions: Teams
 - good luck with the exams
-- Merry Christmas
+- happy holidays!
 -->
