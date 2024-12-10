@@ -3,6 +3,8 @@ layout: center
 zoom: 2.5
 ---
 
+Organogram
+
 ```mermaid
 flowchart TD
     PSF("Python Software Foundation (PSF; ~25)")
@@ -43,9 +45,12 @@ flowchart TD
 ```
 
 <!--
+- BDFL
+    - josagos zsarnok (lesson 8: governance)
+    - often delegates
+    - now: emeritus & hierarchikus zsarnoksag & konszenzus alapu demokracia
 - PSF
     - supports / oversees everything
         - hosting
-- BDFL-emeritus
 - Zero-Clause BSD license
 -->
