@@ -209,12 +209,6 @@ transition: slide-left
 # Rust governance
 
 ---
-src: ./pages/Python.md
-
-transition: slide-left
----
-
----
 layout: center
 zoom: 2
 
@@ -325,7 +319,7 @@ flowchart LR
     typing_issue("Open an issue at *github.com/python/typing-council*")
     recommendation("The Typing Council makes a recommendation to the Steering Council")
     issue("Open an issue at *github.com/python/steering-council*")
-    nomination{"Does a core developer nominate themselves as a PEP-Delgate?"}
+    nomination{"Does a core developer nominate themselves as a PEP-Delegate?"}
     delegate("The Steering Council searches for a PEP-Delegate")
     found("A PEP-Delegate is found")
     not_found("No PEP-Delegate was found")
@@ -382,6 +376,8 @@ transition: slide-up
 
 <!--
 - Apache-like (lesson 8: governance)
+- ~polling
+- for smaller decisions
 -->
 
 ---
@@ -390,19 +386,16 @@ layout: section
 transition: slide-left
 ---
 
-# Opinion
+# Looks are important!
 
 <!--
 - as said in lesson 7 (collaborative development): looks are important
+- but this is mainly a problem for first-time contributors
 -->
 
 ---
 src: ./pages/PEPs.md
 ---
-
-<!--
-- they have a JSON API
--->
 
 ---
 transition: slide-up
@@ -435,21 +428,13 @@ The last 5 PEPs are:
 </v-click>
 
 <!--
+- ~7 lines
 - can quickly see that the project is well alive
 -->
 
 ---
 src: ./pages/PEPs.md
 ---
-
-<!--
-- click on PEP 11
-- everything is there
-    - TOC
-    - authors
-    - date
-    - etc.
--->
 
 ---
 layout: iframe
@@ -460,13 +445,11 @@ transition: slide-up
 
 <!--
 - RFC organization
-    - scroll down
-    - click on '3550-new-range'
-    - scroll down to 'Unresolved questions'
 - no API
-
+- click on an RFC
+    - no authors, date, TOC
 - groups have several different names
-- harder to understand the dev process
+- these make it harder to understand the dev process
 -->
 
 ---
@@ -484,6 +467,7 @@ transition: slide-up
     - many checkpoints
     - but they are inclusive and clear
     - and take the weight off developers' shoulders
+- both of them work well
 
 - so thank you for your attention
 -->
@@ -498,6 +482,7 @@ https://github.com/gy-mate/talks/tree/main/2024-12-10_BME_FLOSS_assignment
 
 <!--
 - questions (teachers / fellow students): I'm available on Teams
+- the presentation source is available on this link
 -->
 
 ---
@@ -536,7 +521,7 @@ transition: slide-left
 - [26] XAMPPRocky, N. Matsakis, and valgrimm, ‘2856-project-groups’. May 21, 2015. Accessed: Dec. 10, 2024. [Online]. Available: https://rust-lang.github.io/rfcs/2856-project-groups.html
 
 <!--
-I used these sources to create the presentation
+- I used these sources
 -->
 
 ---
@@ -547,7 +532,7 @@ transition: slide-left
 
 | | |
 |-|-|
-| <img src="https://upload.wikimedia.org/wikipedia/commons/9/9a/Visual_Studio_Code_1.35_icon.svg" width=40> | [Visual Studio Code](https://github.com/microsoft/vscode) |
+| <img src="https://user-images.githubusercontent.com/57955862/229143220-d9c01168-1e38-4093-88d2-3a4ac251bb2b.png" width=50> | [`vscodium`](https://github.com/VSCodium/vscodium) |
 | <img src="https://repository-images.githubusercontent.com/307260205/b6a8d716-9c7b-40ec-bc44-6422d8b741a0" width=40> | [`yt-dlp`](https://github.com/yt-dlp/yt-dlp) |
 | <img src="https://cdn.icon-icons.com/icons2/3053/PNG/512/ffmpeg_macos_bigsur_icon_190192.png" width=50> | [`ffmpeg`](https://git.ffmpeg.org/ffmpeg.git) |
 | <img src="https://cdn-1.webcatalog.io/catalog/mermaid-chart/mermaid-chart-icon-unplated.png?v=1721019852605" width=40> | [Mermaid](https://github.com/mermaid-js/mermaid) |
@@ -556,7 +541,11 @@ transition: slide-left
 <PoweredBySlidev mt-6/>
 
 <!--
+- I used these open source tools to create the presentation
+- yt-dlp was written in Python
 - we talked about Zotero vs. EndNote in lesson 3 (legal)
+
+- good luck with the exams
 -->
 
 ---
@@ -569,6 +558,5 @@ sys.exit()
 ```
 
 <!--
-- good luck with the exams
 - happy holidays!
 -->
